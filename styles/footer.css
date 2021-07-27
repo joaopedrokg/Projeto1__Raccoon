@@ -1,0 +1,13 @@
+.footer {
+    padding-top: 80px;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 80px;
+    margin: auto;
+    width: 202px;
+    font-size: 12px;
+    height: 80px;
+    color: #b4b4b4;
+}

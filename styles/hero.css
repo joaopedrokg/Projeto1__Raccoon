@@ -1,0 +1,67 @@
+.hero {
+    height: 100vh;
+    justify-content: space-around;
+    background: url(../src/notebook2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero__info {
+    padding-top: 120px;
+    flex-direction: column;
+}
+.hero__info h1 {
+    font-size: 42px;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+.hero__info p {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.hero__info button {
+    background-color: #00a4ef;
+    font-size: 21px;
+    height: 52px;
+    width: 52%;
+    font-weight: 700;
+    margin-bottom: 128px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero {
+        height: 100vh;
+        justify-content: space-between;
+    }
+    .hero-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .hero__info {
+        align-items: flex-start;
+        align-self: flex-start;
+        padding-top: 15%;
+        padding-left: 138px;
+    }
+    .hero__info h1 {
+        font-size: 80px;
+    }
+    .hero__info p {
+        padding-bottom: 96px;
+        font-size: 32px;
+        text-align: start;
+    }
+    .hero__info button {
+        height: 67px;
+        width: 266px;
+    }
+    .hero__img {
+        align-self: flex-end;
+        padding: 0 138px 65px 0;
+    }
+}

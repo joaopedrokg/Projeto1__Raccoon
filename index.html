@@ -6,23 +6,35 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Lorem Ipsum</title>
-        <link rel="stylesheet" href="styles.css" />
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="./styles/banner.css" />
+        <link rel="stylesheet" href="./styles/blocks.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/hero.css" />
+        <link rel="stylesheet" href="./styles/info-card.css" />
+        <link rel="stylesheet" href="./styles/forms.css" />
+        <link rel="stylesheet" href="./styles/table-section.css">
+        <link rel="stylesheet" href="./styles/common.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
     </head>
 
     <body>
         <header>
             <nav>
-                <div class="mobile-container">
-                    <a>
-                        <i class="fa fa-bars"></i>
-                    </a>
+                <div class="mobile-container flex-center">
+                    <div class="hamburger-menu">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </div>
                     <button>Lorem ipsum</button>
                 </div>
                 <div class="desktop-container">
-                    <img src="src/logo.svg" alt="Logo da empresa">
-                    <div id="nav-wrapper">
+                    <div class="hero-img">
+                        <img src="src/logo.svg" alt="Logo da empresa">
+                    </div>
+                    <div class="nav-wrapper flex-center">
                         <a href="#info">Lorem ipsum</a>
                         <a href="#info-card__hands">Lorem ipsum</a>
                         <a href="#footer">Lorem ipsum</a>
@@ -32,24 +44,25 @@
             </nav>
         </header>
 
-        <section>
-            <div class="hero">
-                <img src="src/notebook.png" alt="imagem de fundo de garota mechendo em notebook" />
-                <div class="center-txt" id="inside-img-wrapper">
-                    <div>
-                        <h1 >Lorem ipsum</h1>
-                        <p >
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
-                        <button >Lorem Ipsum</button>
-                        <img src="src/arrow.png" alt="flecha dropdown" id="dropdown">
-                    </div>
-                    <img src="src/logo.svg" alt="Lorem Ipsum logo" id="logo-white" />
+        <section class="hero flex-center">
+            <div class="hero__info flex-center">
+                <h1>Lorem ipsum</h1>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <button>Lorem Ipsum</button>
+            </div>
+            <div class="hero-bottom">
+                <div class="dropdown desktop">
+                    <img src="src/arrow.png" alt="flecha dropdown">
+                </div>
+                <div class="hero__img">
+                    <img src="src/logo.svg" alt="Lorem Ipsum logo" />
                 </div>
             </div>
         </section>
 
-        <section id="info" class="flex-center">
+        <section class="info flex-center">
             <p class="info-txt">
                 <span>Lorem Ipsum</span> dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -65,10 +78,12 @@
             </p>
         </section>
 
-        <section>
-            <div class="blocks flex-center ">
-                <div id="block__1">
+        <section class="blocks flex-center">
+            <div class="block block__1 flex-center">
+                <div class="block__img flex-center">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -76,8 +91,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__2">
+            </div>
+            <div class="block block__2 flex-center">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -85,8 +104,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__3">
+            </div>
+            <div class="block block__3 flex-center">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -94,8 +117,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__4">
+            </div>
+            <div class="block block__4 flex-center">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -103,8 +130,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__5">
+            </div>
+            <div class="block block__5 flex-center">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -112,8 +143,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__6">
+            </div>
+            <div class="block block__6 flex-center">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -121,8 +156,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__7">
+            </div>
+            <div class="block__7 desktop flex-center block ">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -130,8 +169,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__8">
+            </div>
+            <div class="block__8 desktop flex-center block ">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -139,8 +182,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__9">
+            </div>
+            <div class="block__9 desktop flex-center block ">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -148,8 +195,12 @@
                         magna aliqua
                     </p>
                 </div>
-                <div id="block__10">
+            </div>
+            <div class="block__10 desktop flex-center block ">
+                <div class="block__img">
                     <img src="src/target.svg" alt="Flecha acertando alvo em cheio" />
+                </div>
+                <div class="block__txt">
                     <h3>Lorem ipsum</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -160,12 +211,11 @@
             </div>
         </section>
 
-        <section>
-            <div class="info-card">
-                <h2>Lorem ipsum</h2>
+        <section class="info-card">
+            <h2>Lorem ipsum</h2>
             <div id="cards">
-                <div id="info-card__hands" class="cards__card">
-                    <div class="text-button">
+                <div id="info-card__hands" class="cards__card  flex-center">
+                    <div class="text-button flex-center">
                         <h4>Lorem ipsum dolor</h4>
                         <hr>
                         <p>
@@ -176,11 +226,14 @@
                         </p>
                         <button>Lorem ipsum</button>
                     </div>
-                    <img src="src/hands.svg" alt="Logo redondo de mão juntas" />
+                    <div class="info-card__img">
+                        <img src="src/hands.svg" alt="Logo redondo de mão juntas" />
+                    </div>
+
                 </div>
                 <hr />
-                <div id="info-card__shield" class="cards__card">
-                    <div class="text-button">
+                <div id="info-card__shield" class="cards__card flex-center">
+                    <div class="text-button flex-center">
                         <h4>Lorem ipsum dolor</h4>
                         <hr>
                         <p>
@@ -191,11 +244,13 @@
                         </p>
                         <button>Lorem ipsum</button>
                     </div>
-                    <img src="src/shield.svg" alt="Logo redondo de escudo" />
+                    <div class="info-card__img">
+                        <img src="src/shield.svg" alt="Logo redondo de escudo" />
+                    </div>
                 </div>
                 <hr />
-                <div id="info-card__note" class="cards__card">
-                    <div class="text-button">
+                <div id="info-card__note" class="cards__card flex-center">
+                    <div class="text-button flex-center">
                         <h4>Lorem ipsum dolor</h4>
                         <hr>
                         <p>
@@ -206,16 +261,17 @@
                         </p>
                         <button>Lorem ipsum</button>
                     </div>
-                    <img src="src/note.svg" alt="Logo redondo de notebook" />
+                    <div class="info-card__img">
+                        <img src="src/note.svg" alt="Logo redondo de notebook" />
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
 
         <section id="table-section">
             <h2>Lorem ipsum dolor</h2>
             <div id="table-content" class="flex-center">
-                <table >
+                <table>
                     <tr>
                         <td class="flex-center">
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -242,16 +298,15 @@
             </div>
         </section>
 
-        <section id="banner">
-            <img src="src/banner.png" alt="banner de pessoas em reuniao comemorando">
-            <p class="center-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua.</p>
+        <section class="banner flex-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua.
         </section>
 
-        <section id="forms-section">
+        <section class="forms-section flex-center">
             <p class="info-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua.</p>
-            <div class="form" class="flex-center">
+            <div class="form flex-center">
                 <label>Lorem ipsum</label>
                 <input type="text">
 
@@ -267,17 +322,17 @@
                 <label>Lorem ipsum</label>
                 <input type="text">
 
-                <a>Lorem ipsum</a>
+                <button>Lorem ipsum</button>
             </div>
         </section>
         <footer>
-            <div id="footer">
+            <div class="footer">
                 <div class="flex-center">
                     <div class="img-wrapper">
                         <img src="src/logo-no-name.png" alt="Logo da empresa">
                         <img src="src/company-name.png" alt="Nome da empresa">
                     </div>
-                    <div class="img-wrapper">
+                    <div class="second-logo">
                         <img src="src/logo-no-name.png" alt="Logo da empresa">
                         <img src="src/company-name.png" alt="Nome da empresa">
                     </div>

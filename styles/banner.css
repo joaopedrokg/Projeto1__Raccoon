@@ -1,0 +1,8 @@
+#banner img {
+    max-height: 320px;
+}
+#banner p {
+    font-size: calc(20px + 2vw);
+    line-height: 64px;
+    width: 90%;
+}

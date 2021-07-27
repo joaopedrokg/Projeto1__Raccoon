@@ -1,0 +1,48 @@
+.forms-section p {
+    margin: 50px 5%;
+}
+.form {
+    flex-direction: column;
+    height: 535px;
+    width: 90%;
+    max-width: 564px;
+    background-color: #e6e6e6;
+}
+.form input {
+    background-color: #fff;
+    width: 87%;
+    height: 44px;
+    border: none;
+    font-size: 20px;
+    padding-left: 18px;
+}
+.form input:focus {
+    outline: 2px solid #2571b7;
+}
+.form label {
+    align-self: flex-start;
+    margin: 0 5%;
+    font-size: 14px;
+    color: #737373;
+    margin-top: 20px;
+}
+.form button {
+    background-color: #00a4ef;
+    width: 90%;
+    height: 52px;
+    text-align: center;
+    font-size: calc(12px + 1vw);
+    margin: 40px 2px;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+    .form {
+        height: 722px;
+    }
+    .form label {
+        margin-top: 48px;
+    }
+}
